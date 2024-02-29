@@ -1,6 +1,7 @@
 # Hoteis SUDS
 
-Se você está procurando um lugar para passar as férias, fazer aquele encontro com alguns amigos ou até mesmo aproveitar a sua lua de mel, o Hoteis SUDS é o lugar perfeito pra você. Aqui você pode reservar um quarto em qualquer hotel dentro da região sudeste do Brazil (daí a siga SUDS) em questão de apenas alguns cliques. Bora viajar?
+Se você está procurando um lugar para passar as férias, fazer aquele encontro com alguns amigos ou até mesmo aproveitar a sua lua de mel, você precisa acessar Hoteis SUDS. 
+Aqui você pode reservar um quarto em qualquer hotel dentro da região sudeste do Brazil (daí a sigla SUDS) em questão de apenas alguns cliques. Bora viajar?
 
 - Hoteis SUDS é uma landing page responsiva compatível com qualquer resolução de dispositivo
 - Tecnologias Utilizadas: HTML e Tailwindcss
