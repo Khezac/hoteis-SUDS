@@ -7,7 +7,8 @@ Aqui você pode reservar um quarto em qualquer hotel dentro da região sudeste d
 - Tecnologias Utilizadas: HTML e Tailwindcss
 - Libraries:
   - Icons: fontawesome and heroicons
-  - Images: Unsplash.com 
+  - Images: Unsplash.com
+  - URL: https://hoteis-suds.vercel.app/
 
 ## Desktop:
 
