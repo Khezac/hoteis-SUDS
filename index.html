@@ -31,14 +31,14 @@
                             d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
                     </svg></a>
                 <fieldset class="border border-gray-500 flex items-center rounded-3xl padding-2">
-                    <button onclick="darkTheme()" class="h-6 lg:h-8 lg:w-8 mx-auto hover:scale-125 dark:scale-125 transition ease-in-out dark:bg-blue-600 rounded rounded-2xl">
+                    <button onclick="darkTheme()" class="darkBtn h-6 lg:h-8 lg:w-8 mx-auto hover:scale-125 transition ease-in-out dark:bg-blue-600 rounded rounded-2xl">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 lg:h-6 lg:w-6 mx-auto"
                             viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                             <path fill="#a3a3a3"
                                 d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z" />
                         </svg>
                     </button>
-                    <button onclick="lightTheme()" class="h-6 lg:h-8 lg:w-8 mx-auto scale-110 hover:scale-110 dark:scale-90 transition ease-in-out bg-orange-600 dark:bg-transparent dark:border-none  rounded rounded-2xl">
+                    <button onclick="lightTheme()" class="lightBtn h-6 lg:h-8 lg:w-8 mx-auto scale-125 hover:scale-125 transition ease-in-out bg-orange-600 dark:bg-transparent rounded rounded-2xl">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 lg:h-6 lg:w-6 mx-auto"
                             viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                             <path fill="#a3a3a3"
@@ -305,11 +305,23 @@
         function lightTheme() {
             const mainDoc = document.querySelector("html")
             mainDoc.classList = ""
+
+            let lightBtn = document.querySelector(".lightBtn") 
+            lightBtn.classList = lightBtn.classList + " scale-125"
+
+            let darkBtn = document.querySelector(".darkBtn") 
+            darkBtn.classList.remove("scale-125")
         }
 
         function darkTheme() {
             const mainDoc = document.querySelector("html")
             mainDoc.classList = "dark"
+
+            let darkBtn = document.querySelector(".darkBtn") 
+            darkBtn.classList = darkBtn.classList + " scale-125"
+
+            let lightBtn = document.querySelector(".lightBtn") 
+            lightBtn.classList.remove("scale-125")
         }
     </script>
 </body>
