@@ -12,7 +12,7 @@ Aqui você pode reservar um quarto em qualquer hotel dentro da região sudeste d
 
 ## Desktop:
 
-![desktop-collection](https://github.com/Khezac/hoteis-SUDS/assets/152409554/5b177886-512e-425a-bf54-c3fec44eca61)
+![desktop-collection](https://github.com/Khezac/hoteis-SUDS/assets/152409554/3eefe840-d0a6-4657-8793-e730a3517ccb)
 
 
 ## Mobile:
